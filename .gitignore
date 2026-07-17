@@ -1,0 +1,18 @@
+# Executables
+*.exe
+
+# CLion
+.idea/
+
+# Build folders
+build/
+cmake-build-*/
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+replay_pid*.log
