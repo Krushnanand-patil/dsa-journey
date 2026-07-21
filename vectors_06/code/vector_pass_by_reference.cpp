@@ -1,7 +1,8 @@
+//vectors_pass_by_reference
 #include <iostream>
 #include <vector>
 using namespace std;
-void printVector(vector<int>& vec) {
+void printVector(const vector<int>& vec) {
     for (int num : vec) {
         cout << num << " ";
     }
