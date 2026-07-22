@@ -16,3 +16,4 @@ cmake-build-*/
 *.pdb
 
 replay_pid*.log
+.vscode/
