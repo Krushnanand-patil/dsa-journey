@@ -1,5 +1,5 @@
 //pair_sum_two_pointers
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
     int n,target_sum;
@@ -27,9 +27,8 @@ int main(){
         else if(sum>target_sum){
             j--;
         }
-        else{
-            cout<<"sum is not possible ";
-        }
+    
     }
+    cout<<"elements not found"<<endl;
     return 0;
 }
